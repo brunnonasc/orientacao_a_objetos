@@ -6,7 +6,7 @@ class ContaBancaria{
         this._saldo = 0;
     }
 
-    get saldo(){
+    get saldo() {
         return this._saldo;
     }
 
@@ -45,7 +45,7 @@ class ContaCorrente extends ContaBancaria {
 
 class ContaPoupanca extends ContaBancaria {
     constructor (agencia, numero ) {
-        super(agencia, numero);
+        super(agencia, numero );
         this.tipo = "poupança";
         }
 }
